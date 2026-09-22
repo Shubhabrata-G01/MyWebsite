@@ -3,435 +3,263 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Shubhabrata Ganguly — AI Manager, ML Engineer & Freelance AI Consultant</title>
-  <meta name="description" content="Shubhabrata Ganguly — AI Manager & Engineer with 11+ years across ML, Data Science, Applied AI (LLM, RAG, MCP, Agentic AI), Product Management and Quality Engineering. Available for full-time roles and freelance AI consulting." />
+  <title>Shubhabrata Ganguly — AI Manager &amp; Applied AI Engineer</title>
+  <meta name="description" content="Shubhabrata Ganguly — AI Manager & Applied AI Engineer. I craft intelligent, production-grade AI systems across ML & Data Science, Applied AI (LLM, RAG, Agentic AI), Product Management and Quality Engineering. Available for roles & freelance projects." />
   <meta name="author" content="Shubhabrata Ganguly" />
-
-  <!-- Open Graph -->
-  <meta property="og:title" content="Shubhabrata Ganguly — AI Manager & Freelance AI Consultant" />
-  <meta property="og:description" content="ML · Data Science · Applied AI · Product Management · Quality Engineering. 11+ years of experience. Open to roles & freelance projects." />
+  <meta property="og:title" content="Shubhabrata Ganguly — AI Manager & Applied AI Engineer" />
+  <meta property="og:description" content="Intelligent, production-grade AI systems. Available for roles & freelance projects." />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="assets/img/banner.png" />
 
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%23070b1c'/><text x='50' y='68' font-size='58' font-family='Arial' font-weight='bold' text-anchor='middle' fill='%234d9fff'>S</text></svg>" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='26' fill='%23103B33'/><text x='50' y='70' font-size='60' font-family='Georgia' font-weight='bold' text-anchor='middle' fill='%23F5C95B'>S</text></svg>" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..900;1,9..144,400..700&family=Poppins:wght@300;400;500;600;700&family=Caveat:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles-warm.css" />
 </head>
 <body>
-  <!-- Ambient background -->
-  <div class="bg-atmosphere" aria-hidden="true">
-    <div class="blob blob-1"></div>
-    <div class="blob blob-2"></div>
-    <div class="blob blob-3"></div>
-    <div class="grid-overlay"></div>
-    <div class="grain"></div>
+  <!-- decorative blobs -->
+  <div class="scene" aria-hidden="true">
+    <span class="blob b1"></span>
+    <span class="blob b2"></span>
+    <span class="blob b3"></span>
   </div>
 
-  <!-- ============ NAV ============ -->
+  <!-- ======= TOP CONTACT STRIP ======= -->
+  <div class="topbar">
+    <span class="topbar__item"><i class="ico">✦</i> Available for freelance &amp; full-time roles</span>
+    <div class="topbar__contact">
+      <a href="mailto:gangulyshubhabrata@gmail.com">gangulyshubhabrata@gmail.com</a>
+      <span class="sep">·</span>
+      <a href="#contact" class="topbar__cta">Get in touch ↗</a>
+    </div>
+  </div>
+
+  <!-- ======= NAV ======= -->
   <header class="nav" id="nav">
-    <a href="#home" class="nav__brand">
-      <span class="nav__mark">SG</span>
-      <span class="nav__name">Shubhabrata&nbsp;Ganguly</span>
+    <a href="#home" class="brand">
+      <span class="brand__mark">SG</span>
+      <span class="brand__text"><b>Shubhabrata Ganguly</b><small>AI Studio</small></span>
     </a>
     <nav class="nav__links" aria-label="Primary">
+      <a href="#work">Work</a>
+      <a href="#do">What I Do</a>
       <a href="#about">About</a>
-      <a href="#services">Services</a>
-      <a href="#experience">Experience</a>
-      <a href="#projects">Projects</a>
-      <a href="#skills">Skills</a>
-      <a href="#contact" class="nav__cta">Hire / Contact</a>
+      <a href="#contact" class="nav__pill">Get in touch</a>
     </nav>
-    <button class="nav__burger" id="burger" aria-label="Open menu" aria-expanded="false">
-      <span></span><span></span><span></span>
-    </button>
+    <button class="burger" id="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
   </header>
 
-  <!-- ============ HERO ============ -->
+  <!-- ======= HERO ======= -->
   <section class="hero" id="home">
-    <div class="hero__inner">
-      <div class="hero__copy">
-        <p class="kicker reveal">AI&nbsp;MANAGER · ML&nbsp;ENGINEER · APPLIED&nbsp;AI</p>
-        <h1 class="hero__title reveal">
-          Shubhabrata<br /><span class="grad">Ganguly</span>
-        </h1>
-        <p class="hero__lead reveal">
-          I build intelligent, production-grade AI systems — from
-          <strong>ML &amp; data science</strong> to <strong>LLM, RAG &amp; agentic AI</strong> —
-          and lead the <strong>product</strong> and <strong>quality</strong> work that ships them.
-          11+ years across enterprise engineering at PwC, Deloitte &amp; Infosys.
-        </p>
-        <div class="hero__meta reveal">
-          <span>📍 Kolkata, India</span>
-          <span class="dot">·</span>
-          <span>🌐 Remote &amp; Hybrid</span>
-          <span class="dot">·</span>
-          <span class="avail"><i></i> Open to roles &amp; freelance</span>
-        </div>
-        <div class="hero__actions reveal">
-          <a href="#services" class="btn btn--primary">Explore Services</a>
-          <a href="#contact" class="btn btn--ghost">Hire Me</a>
-          <a href="assets/files/Shubhabrata_Ganguly_AI_ML_Resume.docx" class="btn btn--line" download>Download Résumé</a>
-        </div>
-        <div class="hero__stats reveal">
-          <div class="stat"><b data-count="11">11</b><span>+ yrs experience</span></div>
-          <div class="stat"><b data-count="15">15</b><span>engineers led</span></div>
-          <div class="stat"><b data-count="4">4</b><span>service pillars</span></div>
-          <div class="stat"><b data-count="8">8</b><span>+ certifications</span></div>
-        </div>
-      </div>
-
-      <div class="hero__portrait reveal">
-        <div class="portrait__frame">
-          <img src="assets/img/suit.jpg" alt="Portrait of Shubhabrata Ganguly" loading="eager" />
-          <div class="portrait__ring"></div>
-        </div>
-        <div class="chip chip--tl">LLM · RAG · MCP</div>
-        <div class="chip chip--br">Agentic&nbsp;AI</div>
-        <div class="chip chip--bl">MLOps</div>
-      </div>
-    </div>
-    <a href="#about" class="scroll-hint" aria-label="Scroll down">⌄</a>
-  </section>
-
-  <!-- ============ ABOUT ============ -->
-  <section class="section about" id="about">
-    <div class="section__head">
-      <span class="tag">01 — About</span>
-      <h2>Engineer at the core, <span class="grad">AI</span> by design.</h2>
-    </div>
-    <div class="about__grid">
-      <div class="about__text">
-        <p>
-          I'm a results-driven engineering leader with <strong>11+ years</strong> building scalable
-          automation frameworks, cloud-integrated pipelines and API-driven systems across enterprise
-          environments. I'm now channeling that foundation into <strong>AI/ML engineering</strong> —
-          currently completing a <strong>Post Graduate Program in AI &amp; Machine Learning</strong>
-          from <strong>The University of Texas at Austin</strong> (McCombs / Great Learning).
-        </p>
-        <p>
-          My focus sits at the intersection of <strong>LLM engineering, Generative AI, RAG
-          architectures, agentic systems and the Python AI ecosystem</strong> — combined with the
-          product sense and quality discipline needed to turn prototypes into dependable products.
-        </p>
-        <p>
-          I'm available for <strong>full-time roles</strong> and take on <strong>freelance
-          engagements</strong> across the four pillars below. Whether you need a model built, an AI
-          application shipped, a roadmap defined, or a quality strategy for an AI product — let's talk.
-        </p>
-        <div class="about__badges">
-          <span>Microsoft Azure AI Fundamentals</span>
-          <span>AWS Cloud Practitioner</span>
-          <span>SAFe® 6 POPM</span>
-          <span>CSPO®</span>
-          <span>SAFe 6 Agilist</span>
-          <span>Lean Six Sigma</span>
-          <span>UiPath Test Automation</span>
-          <span>JMeter Performance</span>
-        </div>
-      </div>
-      <aside class="about__card">
-        <img class="about__photo" src="assets/img/headshot.jpg" alt="Shubhabrata Ganguly" loading="lazy" />
-        <ul class="about__facts">
-          <li><span>Role</span><b>AI Manager / ML Engineer</b></li>
-          <li><span>Experience</span><b>11+ years</b></li>
-          <li><span>Current</span><b>PwC AC — Engineering Manager</b></li>
-          <li><span>Education</span><b>PGP AI/ML · UT Austin</b></li>
-          <li><span>Base</span><b>Kolkata · Remote-ready</b></li>
-        </ul>
-        <a href="#contact" class="btn btn--primary btn--full">Start a conversation</a>
-      </aside>
-    </div>
-  </section>
-
-  <!-- ============ SERVICES ============ -->
-  <section class="section services" id="services">
-    <div class="section__head">
-      <span class="tag">02 — Services</span>
-      <h2>Freelance &amp; consulting, across <span class="grad">four pillars</span>.</h2>
-      <p class="section__sub">
-        End-to-end delivery or focused engagements — pick a pillar, or combine them for
-        idea-to-production AI.
+    <div class="hero__copy">
+      <p class="hi reveal">Hello, I'm <span class="spark">✦</span></p>
+      <h1 class="hero__name reveal">Shubhabrata<br />Ganguly</h1>
+      <p class="hero__role reveal">AI Manager &amp; Applied&nbsp;AI Engineer</p>
+      <p class="hero__lead reveal">
+        I craft intelligent, production-grade AI systems — from machine learning and
+        data science to LLMs, RAG and agentic AI — that connect ideas with real outcomes.
       </p>
-    </div>
-
-    <div class="services__grid">
-      <!-- 1 -->
-      <article class="svc" style="--i:0">
-        <div class="svc__top">
-          <span class="svc__num">01</span>
-          <span class="svc__icon">📊</span>
-        </div>
-        <h3>ML &amp; Data Science</h3>
-        <p>From raw data to models that drive decisions — statistically sound and business-aligned.</p>
-        <ul>
-          <li>Machine Learning &amp; model development</li>
-          <li>Data science &amp; exploratory analysis</li>
-          <li>Financial data analysis</li>
-          <li>Data modelling &amp; feature engineering</li>
-          <li>KPI analysis &amp; metric design</li>
-          <li>Competition &amp; market benchmarking</li>
-        </ul>
-      </article>
-
-      <!-- 2 -->
-      <article class="svc svc--feature" style="--i:1">
-        <div class="svc__top">
-          <span class="svc__num">02</span>
-          <span class="svc__icon">🤖</span>
-        </div>
-        <h3>Applied AI</h3>
-        <p>Generative AI and agents built to run reliably in production, not just in demos.</p>
-        <ul>
-          <li>LLM engineering &amp; prompt design</li>
-          <li>RAG pipelines &amp; vector search</li>
-          <li>MCP &amp; tool-augmented AI</li>
-          <li>Building with Claude &amp; other frontier models</li>
-          <li>Agentic AI &amp; AI agent building</li>
-          <li>AI application building</li>
-          <li>MLOps · AIOps · model deployment</li>
-        </ul>
-      </article>
-
-      <!-- 3 -->
-      <article class="svc" style="--i:2">
-        <div class="svc__top">
-          <span class="svc__num">03</span>
-          <span class="svc__icon">🧭</span>
-        </div>
-        <h3>Product Management</h3>
-        <p>Turning AI capability into products with a clear roadmap and measurable outcomes.</p>
-        <ul>
-          <li>AI Product Management (AI PM)</li>
-          <li>Roadmap design &amp; prioritization</li>
-          <li>Product strategy &amp; discovery</li>
-          <li>KPI &amp; success-metric definition</li>
-          <li>Competitive &amp; market analysis</li>
-          <li>Agile / SAFe &amp; stakeholder management</li>
-        </ul>
-      </article>
-
-      <!-- 4 -->
-      <article class="svc" style="--i:3">
-        <div class="svc__top">
-          <span class="svc__num">04</span>
-          <span class="svc__icon">✅</span>
-        </div>
-        <h3>Quality Analysis</h3>
-        <p>15 years of quality DNA — now applied to both classic software and AI systems.</p>
-        <ul>
-          <li>AI QA &amp; model evaluation</li>
-          <li>Automation testing (Selenium, Playwright, Appium)</li>
-          <li>Software / functional testing</li>
-          <li>Performance &amp; load testing (JMeter)</li>
-          <li>CI/CD quality gates</li>
-          <li>Test strategy &amp; frameworks</li>
-        </ul>
-      </article>
-    </div>
-
-    <div class="services__cta">
-      <p>Not sure which pillar you need? Describe your problem and I'll scope it.</p>
-      <a href="#contact" class="btn btn--primary">Request a proposal</a>
-    </div>
-  </section>
-
-  <!-- ============ EXPERIENCE ============ -->
-  <section class="section experience" id="experience">
-    <div class="section__head">
-      <span class="tag">03 — Experience</span>
-      <h2>Where I've <span class="grad">delivered</span>.</h2>
-    </div>
-    <div class="timeline">
-      <div class="tl">
-        <div class="tl__dot"></div>
-        <div class="tl__body">
-          <div class="tl__row"><h3>Software Engineering Manager — Quality &amp; Automation</h3><span class="tl__date">Jul 2024 — Present</span></div>
-          <p class="tl__org">PwC Acceleration Centre</p>
-          <ul>
-            <li>Directed a 15-member engineering team delivering enterprise automation across web, mobile &amp; API layers.</li>
-            <li>Championed AI-assisted tooling for code review and test generation — 35% faster onboarding.</li>
-            <li>Embedded quality gates into Azure CI/CD; introduced Playwright, lifting execution speed ~40%.</li>
-          </ul>
-        </div>
+      <div class="hero__btns reveal">
+        <a href="#work" class="btn btn--dark">View Work <span>↗</span></a>
+        <a href="#about" class="btn btn--coral">About Me <span>↗</span></a>
       </div>
-      <div class="tl">
-        <div class="tl__dot"></div>
-        <div class="tl__body">
-          <div class="tl__row"><h3>Senior Automation Engineer</h3><span class="tl__date">Jan 2021 — Jul 2024</span></div>
-          <p class="tl__org">PwC Acceleration Centre</p>
-          <ul>
-            <li>Architected a reusable Java + Selenium + REST Assured framework — 50% shorter regression cycles.</li>
-            <li>Built Azure Pipelines CI/CD for nightly cross-platform regression with zero manual effort.</li>
-            <li>Led iOS/Android mobile automation with Appium; mentored engineers on framework design.</li>
-          </ul>
-        </div>
+    </div>
+
+    <div class="hero__art reveal">
+      <div class="hero__disc"></div>
+      <div class="hero__photo"><img src="assets/img/suit.jpg" alt="Portrait of Shubhabrata Ganguly" /></div>
+      <div class="badge-avail">
+        <svg viewBox="0 0 100 100"><defs><path id="cir" d="M50,50 m-38,0 a38,38 0 1,1 76,0 a38,38 0 1,1 -76,0" /></defs>
+          <text><textPath href="#cir">AVAILABLE FOR PROJECTS · AVAILABLE FOR PROJECTS · </textPath></text>
+        </svg>
+        <span class="badge-avail__dot">↗</span>
       </div>
-      <div class="tl">
-        <div class="tl__dot"></div>
-        <div class="tl__body">
-          <div class="tl__row"><h3>Software Engineer — Automation &amp; Performance</h3><span class="tl__date">Aug 2018 — Oct 2020</span></div>
-          <p class="tl__org">Deloitte USI</p>
-          <ul>
-            <li>Engineered end-to-end mobile automation with Appium across Android &amp; iOS.</li>
-            <li>Led performance workstreams (JMeter, BlazeMeter), modelling real-world load to find bottlenecks.</li>
-          </ul>
-        </div>
-      </div>
-      <div class="tl">
-        <div class="tl__dot"></div>
-        <div class="tl__body">
-          <div class="tl__row"><h3>Software Engineer</h3><span class="tl__date">Feb 2014 — Jun 2018</span></div>
-          <p class="tl__org">Infosys Ltd.</p>
-          <ul>
-            <li>Built test plans, automation scripts &amp; reusable utilities for large-scale enterprise projects.</li>
-            <li>Drove root-cause analysis and testability reviews influencing architecture decisions.</li>
-          </ul>
-        </div>
+      <div class="bubble">
+        <span class="bubble__script">Turning ideas into<br />intelligent systems</span>
+        <span class="bubble__heart">✦</span>
       </div>
     </div>
   </section>
 
-  <!-- ============ PROJECTS ============ -->
-  <section class="section projects" id="projects">
-    <div class="section__head">
-      <span class="tag">04 — Projects</span>
-      <h2>Selected <span class="grad">work</span> &amp; builds.</h2>
-      <p class="section__sub">A mix of open-source builds and applied AI/ML projects. More on
-        <a href="https://github.com/Shubhabrata-G01" target="_blank" rel="noopener">GitHub ↗</a>.</p>
-    </div>
-    <div class="proj__grid">
-      <a class="proj" href="https://github.com/Shubhabrata-G01/Multi_agent_business" target="_blank" rel="noopener">
-        <div class="proj__tags"><span>Agentic AI</span><span>TypeScript</span></div>
-        <h3>Multi-Agent Business</h3>
-        <p>Spin up a business with 38 collaborating AI agents — orchestration, roles and workflows.</p>
-        <span class="proj__link">View repo ↗</span>
-      </a>
-      <a class="proj" href="https://github.com/Shubhabrata-G01/sales-forecast-predict-rest-api" target="_blank" rel="noopener">
-        <div class="proj__tags"><span>ML &amp; DS</span><span>MLOps</span></div>
-        <h3>SuperKart Sales Forecasting</h3>
-        <p>Sales prediction service — Flask API backend + Streamlit frontend, fully Dockerized.</p>
-        <span class="proj__link">View repo ↗</span>
-      </a>
-      <a class="proj" href="https://github.com/Shubhabrata-G01/open-notebook-AI" target="_blank" rel="noopener">
-        <div class="proj__tags"><span>Applied AI</span><span>RAG</span></div>
-        <h3>Open Notebook AI</h3>
-        <p>Open-source take on NotebookLM — flexible document intelligence and retrieval features.</p>
-        <span class="proj__link">View repo ↗</span>
-      </a>
-      <a class="proj" href="https://github.com/Shubhabrata-G01/ImageGen" target="_blank" rel="noopener">
-        <div class="proj__tags"><span>GenAI</span><span>TypeScript</span></div>
-        <h3>ImageGen</h3>
-        <p>A generative image application exploring text-to-image workflows.</p>
-        <span class="proj__link">View repo ↗</span>
-      </a>
-      <a class="proj" href="https://github.com/Shubhabrata-G01/audioBook" target="_blank" rel="noopener">
-        <div class="proj__tags"><span>Applied AI</span><span>Python</span></div>
-        <h3>AudioBook &amp; Translator</h3>
-        <p>Converts text to audiobooks with translation — speech + language processing pipeline.</p>
-        <span class="proj__link">View repo ↗</span>
-      </a>
-      <a class="proj" href="https://github.com/Shubhabrata-G01/AIML_PGP" target="_blank" rel="noopener">
-        <div class="proj__tags"><span>ML &amp; DS</span><span>Hands-on</span></div>
-        <h3>AIML PGP — Hands-on</h3>
-        <p>Coursework &amp; hands-on notebooks from the UT Austin AI/ML program.</p>
-        <span class="proj__link">View repo ↗</span>
-      </a>
-    </div>
-    <div class="proj__note">
-      <strong>Applied projects from practice:</strong> AI-Powered Test Automation Assistant
-      (LangChain + OpenAI → auto-generates Selenium scripts), RAG Knowledge Retrieval (LlamaIndex +
-      FAISS + GPT-4), and API Performance Anomaly Detection (Isolation Forest on JMeter logs).
-    </div>
-  </section>
+  <!-- ======= SELECTED WORKS ======= -->
+  <section class="works" id="work">
+    <div class="works__panel">
+      <div class="works__head">
+        <h2>Selected Works <span class="spark">✦</span></h2>
+        <div class="filters" id="filters">
+          <button class="chip is-active" data-filter="all">All</button>
+          <button class="chip" data-filter="ml">ML &amp; DS</button>
+          <button class="chip" data-filter="applied">Applied AI</button>
+          <button class="chip" data-filter="agentic">Agentic AI</button>
+        </div>
+      </div>
 
-  <!-- ============ SKILLS ============ -->
-  <section class="section skills" id="skills">
-    <div class="section__head">
-      <span class="tag">05 — Skills</span>
-      <h2>The <span class="grad">toolkit</span>.</h2>
-    </div>
-    <div class="skills__grid">
-      <div class="skillset">
-        <h4>AI / ML &amp; GenAI</h4>
-        <div class="chips">
-          <span>Python</span><span>NumPy</span><span>Pandas</span><span>Scikit-learn</span>
-          <span>TensorFlow</span><span>PyTorch</span><span>Deep Learning</span><span>NLP</span>
-          <span>LLM Fine-tuning</span><span>RAG</span><span>LangChain</span><span>LlamaIndex</span>
-          <span>OpenAI API</span><span>Claude</span><span>Hugging Face</span><span>FAISS</span>
-          <span>ChromaDB</span><span>Embeddings</span><span>AI Agents</span><span>MCP</span>
-        </div>
-      </div>
-      <div class="skillset">
-        <h4>Engineering &amp; Cloud</h4>
-        <div class="chips">
-          <span>Java</span><span>JavaScript</span><span>Bash</span><span>Docker</span>
-          <span>Azure</span><span>AWS</span><span>Azure DevOps</span><span>GitHub Actions</span>
-          <span>Jenkins</span><span>CI/CD</span><span>REST APIs</span><span>MLOps</span><span>AIOps</span>
-        </div>
-      </div>
-      <div class="skillset">
-        <h4>Quality &amp; Automation</h4>
-        <div class="chips">
-          <span>Selenium</span><span>Playwright</span><span>Appium</span><span>REST Assured</span>
-          <span>JMeter</span><span>BlazeMeter</span><span>Performance Testing</span>
-          <span>API Automation</span><span>AI QA</span>
-        </div>
-      </div>
-      <div class="skillset">
-        <h4>Product &amp; Delivery</h4>
-        <div class="chips">
-          <span>Product Strategy</span><span>Roadmapping</span><span>KPI Analysis</span>
-          <span>Market Research</span><span>Agile</span><span>SAFe 6.0</span><span>Scrum</span>
-          <span>Stakeholder Mgmt</span><span>Lean Six Sigma</span>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============ CONTACT ============ -->
-  <section class="section contact" id="contact">
-    <div class="contact__card">
-      <div class="contact__left">
-        <span class="tag">06 — Contact</span>
-        <h2>Let's build something <span class="grad">intelligent</span>.</h2>
-        <p>Hiring, or have a project in mind? I reply within a day. Tell me about your role or the
-          problem you're solving and I'll come back with a clear next step.</p>
-        <div class="contact__links">
-          <a href="mailto:gangulyshubhabrata@gmail.com" class="cl">
-            <span class="cl__ico">✉</span>
-            <span><b>Email</b>gangulyshubhabrata@gmail.com</span>
-          </a>
-          <a href="https://www.linkedin.com/in/shubhabrata-ganguly-bb578a134" target="_blank" rel="noopener" class="cl">
-            <span class="cl__ico">in</span>
-            <span><b>LinkedIn</b>/shubhabrata-ganguly</span>
-          </a>
-          <a href="https://github.com/Shubhabrata-G01" target="_blank" rel="noopener" class="cl">
-            <span class="cl__ico">gh</span>
-            <span><b>GitHub</b>/Shubhabrata-G01</span>
-          </a>
-          <div class="cl cl--static">
-            <span class="cl__ico">📍</span>
-            <span><b>Location</b>Kolkata, India · Remote &amp; Hybrid</span>
+      <div class="works__grid" id="worksGrid">
+        <!-- 1 SafeGuard -->
+        <a class="work" data-cat="ml" href="https://github.com/Shubhabrata-G01/SafeGuard_Corporation_Image_Analysis" target="_blank" rel="noopener">
+          <div class="work__thumb thumb--a">
+            <span class="work__emoji">🦺</span>
+            <span class="work__pill">93.9% accuracy</span>
           </div>
-        </div>
+          <div class="work__meta">
+            <div>
+              <h3>SafeGuard Image Analysis</h3>
+              <p>Computer Vision · ML &amp; DS</p>
+            </div>
+            <span class="work__arrow">↗</span>
+          </div>
+        </a>
+
+        <!-- 2 Multi-agent -->
+        <a class="work" data-cat="agentic" href="https://github.com/Shubhabrata-G01/Multi_agent_business" target="_blank" rel="noopener">
+          <div class="work__thumb thumb--b">
+            <span class="work__emoji">🤖</span>
+            <span class="work__pill">38 AI agents</span>
+          </div>
+          <div class="work__meta">
+            <div>
+              <h3>Multi-Agent Business</h3>
+              <p>Agentic AI · Orchestration</p>
+            </div>
+            <span class="work__arrow">↗</span>
+          </div>
+        </a>
+
+        <!-- 3 Medical RAG -->
+        <a class="work" data-cat="applied" href="https://github.com/Shubhabrata-G01/Medical_Questions_RAG" target="_blank" rel="noopener">
+          <div class="work__thumb thumb--c">
+            <span class="work__emoji">🩺</span>
+            <span class="work__pill">4.8/5 grounded</span>
+          </div>
+          <div class="work__meta">
+            <div>
+              <h3>Medical Questions RAG</h3>
+              <p>Applied AI · RAG</p>
+            </div>
+            <span class="work__arrow">↗</span>
+          </div>
+        </a>
       </div>
-      <div class="contact__right">
-        <a href="mailto:gangulyshubhabrata@gmail.com?subject=Project%20enquiry%20for%20Shubhabrata" class="btn btn--primary btn--full">Email me directly</a>
-        <a href="assets/files/Shubhabrata_Ganguly_AI_ML_Resume.docx" class="btn btn--line btn--full" download>Download AI/ML résumé</a>
-        <a href="assets/files/Shubhabrata_Ganguly_PM_Resume.pdf" class="btn btn--line btn--full" download>Download Product résumé</a>
+
+      <div class="works__desc" id="worksDesc">
+        <article data-for="ml">
+          <b>SafeGuard Corporation Image Analysis.</b> A computer-vision classifier that detects
+          whether industrial workers are wearing safety helmets. Fine-tuned VGG-16 with data
+          augmentation on 4,125 images — ~93.9% test accuracy. TensorFlow/Keras, OpenCV, scikit-learn.
+        </article>
+        <article data-for="agentic">
+          <b>Multi-Agent Business.</b> A framework that spins up a full software company run by
+          38 coordinated AI agents with defined roles, tools and a web app — built on the Claude
+          agent framework with automation workflows.
+        </article>
+        <article data-for="applied">
+          <b>Medical Questions RAG.</b> A retrieval-augmented pipeline that answers clinical
+          questions grounded strictly in the Merck Manual — FAISS + BGE embeddings, cross-encoder
+          re-ranking and a Mistral-7B generator — reaching 4.8/5 groundedness with citations.
+        </article>
       </div>
     </div>
   </section>
 
-  <!-- ============ FOOTER ============ -->
-  <footer class="footer">
-    <p>© <span id="year"></span> Shubhabrata Ganguly — AI Manager &amp; ML Engineer.</p>
-    <p class="footer__built">Built with care · Available for roles &amp; freelance work.</p>
+  <!-- ======= WHAT I DO ======= -->
+  <section class="do" id="do">
+    <div class="do__intro">
+      <div class="do__avatar">
+        <div class="do__avatar-disc"></div>
+        <img src="assets/img/headshot.jpg" alt="Shubhabrata Ganguly" />
+        <span class="crown">♛</span>
+        <span class="do__smile">✦</span>
+      </div>
+    </div>
+    <div class="do__body">
+      <h2>What I Do <span class="spark">✦</span></h2>
+      <p class="do__sub">Four pillars — pick one, or combine them for idea-to-production AI.</p>
+      <div class="do__grid">
+        <div class="doitem">
+          <span class="doitem__ico">📊</span>
+          <h4>ML &amp; Data Science</h4>
+          <p>Machine learning, financial data analysis, data modelling, KPI &amp; competition analysis.</p>
+        </div>
+        <div class="doitem">
+          <span class="doitem__ico">🤖</span>
+          <h4>Applied AI</h4>
+          <p>LLM, RAG, MCP, Claude, agentic AI &amp; agent building, MLOps, AIOps, model deployment.</p>
+        </div>
+        <div class="doitem">
+          <span class="doitem__ico">🧭</span>
+          <h4>Product Management</h4>
+          <p>AI product management, roadmap design, KPI definition, competitive analysis, Agile/SAFe.</p>
+        </div>
+        <div class="doitem">
+          <span class="doitem__ico">✅</span>
+          <h4>Quality Analysis</h4>
+          <p>AI QA, automation, software &amp; performance testing, CI/CD quality gates.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= BAND: PHILOSOPHY + STATS ======= -->
+  <section class="band" id="about">
+    <div class="band__quote">
+      <p class="band__mark">“</p>
+      <p class="band__text">I build AI the way I build teams — with precision, curiosity and a bias
+        for shipping things that actually work in production.</p>
+      <div class="band__by">
+        <img src="assets/img/headshot.jpg" alt="Shubhabrata Ganguly" />
+        <span><b>Shubhabrata Ganguly</b><small>AI Manager · 11+ years across PwC, Deloitte &amp; Infosys</small></span>
+      </div>
+    </div>
+    <div class="band__stats">
+      <div class="bstat"><b>11+</b><span>Years of<br />experience</span></div>
+      <span class="band__div"></span>
+      <div class="bstat"><b>15</b><span>Engineers<br />led</span></div>
+      <span class="band__div"></span>
+      <div class="bstat"><b>8+</b><span>Professional<br />certifications</span></div>
+    </div>
+  </section>
+
+  <!-- ======= FOOTER / CONTACT ======= -->
+  <footer class="foot" id="contact">
+    <div class="foot__top">
+      <h2>Let's create something <span class="script">intelligent!</span></h2>
+      <a href="mailto:gangulyshubhabrata@gmail.com?subject=Project%20enquiry" class="btn btn--coral btn--lg">Start a project ↗</a>
+    </div>
+    <div class="foot__cols">
+      <div class="foot__col">
+        <h5>Get in touch</h5>
+        <a href="mailto:gangulyshubhabrata@gmail.com"><span class="fico">✉</span> gangulyshubhabrata@gmail.com</a>
+        <p><span class="fico">📍</span> Kolkata, India · Remote &amp; Hybrid</p>
+        <a href="https://www.ShubhabrataGanguly.com" target="_blank" rel="noopener"><span class="fico">🌐</span> www.ShubhabrataGanguly.com</a>
+      </div>
+      <div class="foot__col">
+        <h5>Résumés</h5>
+        <a href="assets/files/Shubhabrata_Ganguly_AI_ML_Resume.docx" download><span class="fico">⬇</span> AI / ML résumé</a>
+        <a href="assets/files/Shubhabrata_Ganguly_PM_Resume.pdf" download><span class="fico">⬇</span> Product résumé</a>
+        <a href="index-dark.html"><span class="fico">◐</span> View dark theme</a>
+      </div>
+      <div class="foot__col">
+        <h5>Follow along</h5>
+        <div class="socials">
+          <a href="https://github.com/Shubhabrata-G01" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 .5A11.5 11.5 0 0 0 .5 12a11.5 11.5 0 0 0 7.86 10.92c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.34-1.3-1.7-1.3-1.7-1.06-.72.08-.71.08-.71 1.17.08 1.79 1.2 1.79 1.2 1.04 1.79 2.73 1.27 3.4.97.1-.76.4-1.27.73-1.56-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.69 5.39-5.25 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5Z"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/shubhabrata-ganguly-bb578a134" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.94v5.67H9.35V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.8 0 0 .78 0 1.75v20.5C0 23.22.8 24 1.77 24h20.45c.98 0 1.78-.78 1.78-1.75V1.75C24 .78 23.2 0 22.22 0Z"/></svg>
+          </a>
+          <a href="https://huggingface.co/shubhabrataganguly" target="_blank" rel="noopener" aria-label="Hugging Face" title="Hugging Face" class="soc-hf">🤗</a>
+        </div>
+        <p class="foot__avail"><i></i> Open to roles &amp; freelance</p>
+      </div>
+    </div>
+    <div class="foot__base">
+      <span>© <span id="year"></span> Shubhabrata Ganguly</span>
+      <span>Designed &amp; built with care ✦</span>
+    </div>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="script-warm.js"></script>
 </body>
 </html>

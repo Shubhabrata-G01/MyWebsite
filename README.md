@@ -19,13 +19,22 @@ roles and to offer freelance services to clients.
 
 Plain **HTML + CSS + JavaScript** — no build step, no dependencies. Fonts load from Google Fonts.
 
+Two themes are included:
+
 ```
-index.html      # markup
-styles.css      # dark navy / electric-blue design system
-script.js       # nav, scroll reveals, count-up stats
-assets/img/     # banner + photos
-assets/files/   # downloadable résumés
+index.html        # WARM theme  — cream / teal / coral editorial style (default)
+styles-warm.css   #   its styles
+script-warm.js    #   filters, mobile nav, scroll reveals
+
+index-dark.html   # DARK theme  — navy / electric-blue
+styles.css        #   its styles
+script.js         #   nav, scroll reveals, count-up stats
+
+assets/img/       # banner + photos
+assets/files/     # downloadable résumés
 ```
+
+Each theme links to the other, so you can pick whichever you prefer as the site's `index.html`.
 
 ## Run locally
 
