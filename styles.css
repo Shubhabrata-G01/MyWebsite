@@ -133,7 +133,16 @@ h1, h2, h3, h4 { font-family: var(--font-head); font-weight: 700; line-height: 1
 .avail { display: inline-flex; align-items: center; gap: 8px; color: var(--text); }
 .avail i { width: 9px; height: 9px; border-radius: 50%; background: #38e08a; box-shadow: 0 0 0 4px rgba(56,224,138,.18); animation: pulse 2s infinite; }
 @keyframes pulse { 50% { box-shadow: 0 0 0 8px rgba(56,224,138,0); } }
-.hero__actions { display: flex; flex-wrap: wrap; gap: 14px; margin-bottom: 44px; }
+.hero__actions { display: flex; flex-wrap: wrap; gap: 14px; margin-bottom: 26px; }
+.hero__contact { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 44px; }
+.contact-link { display: inline-flex; align-items: center; gap: 11px; padding: 10px 16px; border-radius: 14px; background: var(--surface); border: 1px solid var(--border); transition: border-color .2s, transform .2s, background .2s; }
+.contact-link:hover { transform: translateY(-2px); border-color: var(--brand-lt); background: var(--surface-2); }
+.contact-link__ico { display: grid; place-items: center; width: 34px; height: 34px; border-radius: 10px; flex-shrink: 0; }
+.contact-link--wa .contact-link__ico { background: rgba(37, 211, 102, 0.14); color: #25d366; }
+.contact-link--call .contact-link__ico { background: var(--grad-soft); color: var(--brand-lt); }
+.contact-link__txt { display: flex; flex-direction: column; line-height: 1.2; }
+.contact-link__txt small { font-size: 11px; color: var(--muted); font-family: var(--font-mono); letter-spacing: .04em; }
+.contact-link__txt b { font-size: 14.5px; color: var(--text); font-weight: 600; }
 .hero__stats { display: grid; grid-template-columns: repeat(4, auto); gap: clamp(18px, 3vw, 40px); }
 .stat b { display: block; font-family: var(--font-head); font-size: clamp(26px, 3vw, 34px); font-weight: 800; color: var(--text); }
 .stat span { font-size: 12.5px; color: var(--muted); }
@@ -281,7 +290,7 @@ h1, h2, h3, h4 { font-family: var(--font-head); font-weight: 700; line-height: 1
   .hero__copy { order: 2; }
   .hero__portrait { order: 1; margin-bottom: 10px; }
   .hero__lead, .hero__meta { margin-left: auto; margin-right: auto; }
-  .hero__meta, .hero__actions { justify-content: center; }
+  .hero__meta, .hero__actions, .hero__contact { justify-content: center; }
   .hero__stats { justify-content: center; }
   .about__grid { grid-template-columns: 1fr; }
   .about__card { position: static; }
